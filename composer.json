@@ -1,19 +1,19 @@
 {
-  "name": "tomato/hessian-php",
-  "description": "hession For php",
-  "keywords": ["hessian", "php"],
-  "license": "MIT",
-  "type": "library",
-  "authors": [
-    {
-      "name": "luyh",
-      "email": "385817098@qq.com"
+    "name": "tomato/hessian-php",
+    "description": "HessianPHP 2",
+    "license": "MIT",
+    "authors": [{
+        "name": "luyh",
+        "email": "385817098@qq.com"
+    }],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "./src",
+            "./src/Hessian1",
+            "./src/Hessian2"
+        ]
     }
-  ],
-  "require": {
-    "php": ">=5.3.0"
-  },
-  "autoload": {
-    "classmap": "src/"
-  }
 }
