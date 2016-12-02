@@ -3,6 +3,7 @@
   "description": "hession For php",
   "keywords": ["hessian", "php"],
   "license": "MIT",
+  "type": "library",
   "authors": [
     {
       "name": "luyh",
